@@ -1,0 +1,1551 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local WestRetro = Instance.new("ScreenGui")
+local WestRetroFrame2 = Instance.new("Frame")
+local LeftSideBar = Instance.new("ImageLabel")
+local BottomBar = Instance.new("ImageLabel")
+local TopBar = Instance.new("ImageLabel")
+local MiddleFrame = Instance.new("Frame")
+local MainCheatsTabBTN = Instance.new("TextButton")
+local RapidFireBTN = Instance.new("TextButton")
+local RightSideBar = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local RenderingText = Instance.new("TextLabel")
+local RapidFireTitle = Instance.new("TextLabel")
+local SideLine5 = Instance.new("Frame")
+local WeaponCheatsText = Instance.new("TextLabel")
+local BackpackNeverDisabledBTN = Instance.new("TextButton")
+local WalkspeedTitle = Instance.new("TextLabel")
+local NoclipTitle = Instance.new("TextLabel")
+local UpWardsLine = Instance.new("Frame")
+local InfiniteAmmoTitle = Instance.new("TextLabel")
+local SideLine2 = Instance.new("Frame")
+local NoCameraShakeBTN = Instance.new("TextButton")
+local TeleportsText = Instance.new("TextLabel")
+local AimbotTitle = Instance.new("TextLabel")
+local SideLine4 = Instance.new("Frame")
+local PlayerEspTitle = Instance.new("TextLabel")
+local SideLine3 = Instance.new("Frame")
+local PlayerEspBTN = Instance.new("TextButton")
+local InfiniteAmmoBTN = Instance.new("TextButton")
+local NoclipBTN = Instance.new("TextButton")
+local StraightBottomLine = Instance.new("Frame")
+local SideLine6 = Instance.new("Frame")
+local StraightBottomLine_2 = Instance.new("Frame")
+local AimbotBTN = Instance.new("TextButton")
+local SideLine = Instance.new("Frame")
+local UpWardsLine4 = Instance.new("Frame")
+local UpWardsLine4_2 = Instance.new("Frame")
+local UpWardsLine3 = Instance.new("Frame")
+local UpWardsLine3_2 = Instance.new("Frame")
+local HorseEspBTN = Instance.new("TextButton")
+local HorseEspTitle = Instance.new("TextLabel")
+local UpWardsLine_2 = Instance.new("Frame")
+local UpLine3 = Instance.new("Frame")
+local UpLine2 = Instance.new("Frame")
+local StraightLine = Instance.new("Frame")
+local StraightBottomLine_3 = Instance.new("Frame")
+local SideLine4_2 = Instance.new("Frame")
+local UpWardsLine3_3 = Instance.new("Frame")
+local StraightBottomLine_4 = Instance.new("Frame")
+local UpWardsLine3_4 = Instance.new("Frame")
+local SideLine6_2 = Instance.new("Frame")
+local CharacterCheatsText = Instance.new("TextLabel")
+local TumbleweedTPTitle = Instance.new("TextLabel")
+local StoneCreekTPTitle = Instance.new("TextLabel")
+local QuarryTPTitle = Instance.new("TextLabel")
+local GrayRidgeTPTitle = Instance.new("TextLabel")
+local FortArthurTPTitle = Instance.new("TextLabel")
+local FortCassidyTPTitle = Instance.new("TextLabel")
+local RedRocksCampTPTitle = Instance.new("TextLabel")
+local TumbleweedTPBTN = Instance.new("TextButton")
+local RedRocksCampTPBTN = Instance.new("TextButton")
+local StoneCreekTPBTN = Instance.new("TextButton")
+local QuarryTPBTN = Instance.new("TextButton")
+local GrayridgeTPBTN = Instance.new("TextButton")
+local FortArthurTPBTN = Instance.new("TextButton")
+local FortCassidyTPBTN = Instance.new("TextButton")
+local OtherCheatsTabBTN = Instance.new("TextButton")
+local MaxAccuracyTitle = Instance.new("TextLabel")
+local MaxAccuracyBTN = Instance.new("TextButton")
+local NoCameraShakeTitle = Instance.new("TextLabel")
+local BackpackNeverDisabledTitle = Instance.new("TextLabel")
+local DisabledTitle = Instance.new("TextLabel")
+local WalkSpeedTextBox = Instance.new("TextBox")
+--Properties:
+WestRetro.Name = "WestRetro"
+WestRetro.Parent = game.CoreGui
+WestRetro.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+WestRetroFrame2.Name = "WestRetroFrame2"
+WestRetroFrame2.Parent = WestRetro
+WestRetroFrame2.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+WestRetroFrame2.BorderColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+WestRetroFrame2.Position = UDim2.new(0.515888333, 0, 0.0485487655, 0)
+WestRetroFrame2.Size = UDim2.new(0, 405, 0, 540)
+
+LeftSideBar.Name = "LeftSideBar"
+LeftSideBar.Parent = WestRetroFrame2
+LeftSideBar.BackgroundColor3 = Color3.new(1, 1, 1)
+LeftSideBar.BorderSizePixel = 0
+LeftSideBar.Position = UDim2.new(-0.000760614872, 0, 0.00194931822, 0)
+LeftSideBar.Size = UDim2.new(0, 10, 0, 522)
+LeftSideBar.Image = "http://www.roblox.com/asset/?id=4294428780"
+
+BottomBar.Name = "BottomBar"
+BottomBar.Parent = WestRetroFrame2
+BottomBar.BackgroundColor3 = Color3.new(1, 1, 1)
+BottomBar.BorderColor3 = Color3.new(0.141176, 0.141176, 0.141176)
+BottomBar.Position = UDim2.new(0, 0, 0.949999988, 0)
+BottomBar.Size = UDim2.new(0, 405, 0, 27)
+BottomBar.Image = "http://www.roblox.com/asset/?id=4294464298"
+
+TopBar.Name = "TopBar"
+TopBar.Parent = WestRetroFrame2
+TopBar.BackgroundColor3 = Color3.new(1, 1, 1)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 405, 0, 26)
+TopBar.Image = "http://www.roblox.com/asset/?id=4294428780"
+
+MiddleFrame.Name = "MiddleFrame"
+MiddleFrame.Parent = WestRetroFrame2
+MiddleFrame.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+MiddleFrame.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+MiddleFrame.Position = UDim2.new(0.01728395, 0, 0.0481481478, 0)
+MiddleFrame.Size = UDim2.new(0, 387, 0, 486)
+MiddleFrame.ZIndex = 3
+
+MainCheatsTabBTN.Name = "MainCheatsTabBTN"
+MainCheatsTabBTN.Parent = WestRetroFrame2
+MainCheatsTabBTN.BackgroundColor3 = Color3.new(0.192157, 0.192157, 0.192157)
+MainCheatsTabBTN.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+MainCheatsTabBTN.Position = UDim2.new(0.0222222228, 0, 0.0481481478, 0)
+MainCheatsTabBTN.Size = UDim2.new(0, 97, 0, 23)
+MainCheatsTabBTN.ZIndex = 3
+MainCheatsTabBTN.AutoButtonColor = false
+MainCheatsTabBTN.Font = Enum.Font.Code
+MainCheatsTabBTN.Text = "Main Cheats"
+MainCheatsTabBTN.TextColor3 = Color3.new(1, 1, 1)
+MainCheatsTabBTN.TextSize = 14
+
+RapidFireBTN.Name = "RapidFireBTN"
+RapidFireBTN.Parent = WestRetroFrame2
+RapidFireBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+RapidFireBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+RapidFireBTN.BorderSizePixel = 2
+RapidFireBTN.Position = UDim2.new(0.476543218, 0, 0.82407403, 0)
+RapidFireBTN.Size = UDim2.new(0, 9, 0, 8)
+RapidFireBTN.ZIndex = 3
+RapidFireBTN.Font = Enum.Font.SourceSans
+RapidFireBTN.Text = ""
+RapidFireBTN.TextColor3 = Color3.new(0, 0, 0)
+RapidFireBTN.TextSize = 14
+
+RightSideBar.Name = "RightSideBar"
+RightSideBar.Parent = WestRetroFrame2
+RightSideBar.BackgroundColor3 = Color3.new(1, 1, 1)
+RightSideBar.BorderSizePixel = 0
+RightSideBar.Position = UDim2.new(0.97363627, 0, 0.0481481478, 0)
+RightSideBar.Size = UDim2.new(0, 10, 0, 497)
+RightSideBar.Image = "http://www.roblox.com/asset/?id=4294428780"
+
+Title.Name = "Title"
+Title.Parent = WestRetroFrame2
+Title.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Title.BackgroundTransparency = 1
+Title.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Title.Position = UDim2.new(-2.98023224e-08, 0, 0.00179712498, 0)
+Title.Size = UDim2.new(0, 405, 0, 28)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SciFi
+Title.Text = "WestRetro 1..0 Beta"
+Title.TextColor3 = Color3.new(0.701961, 0.0901961, 0.701961)
+Title.TextSize = 15
+Title.TextStrokeTransparency = 0
+
+TextLabel.Parent = WestRetroFrame2
+TextLabel.BackgroundColor3 = Color3.new(0.141176, 0.141176, 0.141176)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.71180433, 0, 0.952963591, 0)
+TextLabel.Size = UDim2.new(0, 115, 0, 25)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "\"P\" To Toggle GUI"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 14
+
+Credits.Name = "Credits"
+Credits.Parent = WestRetroFrame2
+Credits.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, 0.970094383, 0)
+Credits.Size = UDim2.new(0, 168, 0, 5)
+Credits.ZIndex = 2
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "                           Programmed By RetroChicken "
+Credits.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+Credits.TextSize = 13
+Credits.TextStrokeTransparency = 0
+
+RenderingText.Name = "RenderingText"
+RenderingText.Parent = WestRetroFrame2
+RenderingText.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+RenderingText.BackgroundTransparency = 1
+RenderingText.BorderSizePixel = 0
+RenderingText.Position = UDim2.new(0.227160484, 0, 0.123798095, 0)
+RenderingText.Size = UDim2.new(0, 46, 0, 5)
+RenderingText.ZIndex = 3
+RenderingText.Font = Enum.Font.Code
+RenderingText.Text = "Rendering/Visual Cheats"
+RenderingText.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+RenderingText.TextSize = 14
+RenderingText.TextStrokeTransparency = 0
+
+RapidFireTitle.Name = "RapidFireTitle"
+RapidFireTitle.Parent = WestRetroFrame2
+RapidFireTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+RapidFireTitle.BackgroundTransparency = 1
+RapidFireTitle.BorderSizePixel = 0
+RapidFireTitle.Position = UDim2.new(0.0800617114, 0, 0.824111104, 0)
+RapidFireTitle.Size = UDim2.new(0, 46, 0, 5)
+RapidFireTitle.ZIndex = 3
+RapidFireTitle.Font = Enum.Font.Code
+RapidFireTitle.Text = "Rapid Fire"
+RapidFireTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+RapidFireTitle.TextSize = 14
+RapidFireTitle.TextStrokeTransparency = 0
+
+SideLine5.Name = "SideLine5"
+SideLine5.Parent = WestRetroFrame2
+SideLine5.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine5.BackgroundTransparency = 0.0099999997764826
+SideLine5.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine5.BorderSizePixel = 0
+SideLine5.Position = UDim2.new(0.0345679, 0, 0.518592656, 0)
+SideLine5.Size = UDim2.new(0, 17, 0, 1)
+SideLine5.ZIndex = 3
+
+WeaponCheatsText.Name = "WeaponCheatsText"
+WeaponCheatsText.Parent = WestRetroFrame2
+WeaponCheatsText.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+WeaponCheatsText.BackgroundTransparency = 1
+WeaponCheatsText.BorderSizePixel = 0
+WeaponCheatsText.Position = UDim2.new(0.170370355, 0, 0.723798156, 0)
+WeaponCheatsText.Size = UDim2.new(0, 46, 0, 5)
+WeaponCheatsText.ZIndex = 3
+WeaponCheatsText.Font = Enum.Font.Code
+WeaponCheatsText.Text = "Weapon Cheats"
+WeaponCheatsText.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+WeaponCheatsText.TextSize = 14
+WeaponCheatsText.TextStrokeTransparency = 0
+
+BackpackNeverDisabledBTN.Name = "BackpackNeverDisabledBTN"
+BackpackNeverDisabledBTN.Parent = WestRetroFrame2
+BackpackNeverDisabledBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+BackpackNeverDisabledBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+BackpackNeverDisabledBTN.BorderSizePixel = 2
+BackpackNeverDisabledBTN.Position = UDim2.new(0.476543218, 0, 0.648148119, 0)
+BackpackNeverDisabledBTN.Size = UDim2.new(0, 9, 0, 8)
+BackpackNeverDisabledBTN.ZIndex = 3
+BackpackNeverDisabledBTN.Font = Enum.Font.SourceSans
+BackpackNeverDisabledBTN.Text = ""
+BackpackNeverDisabledBTN.TextColor3 = Color3.new(0, 0, 0)
+BackpackNeverDisabledBTN.TextSize = 14
+
+WalkspeedTitle.Name = "WalkspeedTitle"
+WalkspeedTitle.Parent = WestRetroFrame2
+WalkspeedTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+WalkspeedTitle.BackgroundTransparency = 1
+WalkspeedTitle.BorderSizePixel = 0
+WalkspeedTitle.Position = UDim2.new(0.0849999934, 0, 0.608703732, 0)
+WalkspeedTitle.Size = UDim2.new(0, 46, 0, 5)
+WalkspeedTitle.ZIndex = 3
+WalkspeedTitle.Font = Enum.Font.Code
+WalkspeedTitle.Text = "Walk Speed"
+WalkspeedTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+WalkspeedTitle.TextSize = 14
+WalkspeedTitle.TextStrokeTransparency = 0
+
+NoclipTitle.Name = "NoclipTitle"
+NoclipTitle.Parent = WestRetroFrame2
+NoclipTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+NoclipTitle.BackgroundTransparency = 1
+NoclipTitle.BorderSizePixel = 0
+NoclipTitle.Position = UDim2.new(0.0839506164, 0, 0.56268698, 0)
+NoclipTitle.Size = UDim2.new(0, 46, 0, 5)
+NoclipTitle.ZIndex = 3
+NoclipTitle.Font = Enum.Font.Code
+NoclipTitle.Text = "Noclip \"V\""
+NoclipTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+NoclipTitle.TextSize = 14
+NoclipTitle.TextStrokeTransparency = 0
+
+UpWardsLine.Name = "UpWardsLine"
+UpWardsLine.Parent = WestRetroFrame2
+UpWardsLine.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine.BackgroundTransparency = 0.0099999997764826
+UpWardsLine.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine.BorderSizePixel = 0
+UpWardsLine.Position = UDim2.new(0.0296296291, 0, 0.126000017, 0)
+UpWardsLine.Size = UDim2.new(0, 1, 0, 54)
+UpWardsLine.ZIndex = 3
+
+InfiniteAmmoTitle.Name = "InfiniteAmmoTitle"
+InfiniteAmmoTitle.Parent = WestRetroFrame2
+InfiniteAmmoTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+InfiniteAmmoTitle.BackgroundTransparency = 1
+InfiniteAmmoTitle.BorderSizePixel = 0
+InfiniteAmmoTitle.Position = UDim2.new(0.104753055, 0, 0.859296322, 0)
+InfiniteAmmoTitle.Size = UDim2.new(0, 46, 0, 5)
+InfiniteAmmoTitle.ZIndex = 3
+InfiniteAmmoTitle.Font = Enum.Font.Code
+InfiniteAmmoTitle.Text = "Infinite Ammo"
+InfiniteAmmoTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+InfiniteAmmoTitle.TextSize = 14
+InfiniteAmmoTitle.TextStrokeTransparency = 0
+
+SideLine2.Name = "SideLine2"
+SideLine2.Parent = WestRetroFrame2
+SideLine2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine2.BackgroundTransparency = 0.0099999997764826
+SideLine2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine2.BorderSizePixel = 0
+SideLine2.Position = UDim2.new(0.0370370373, 0, 0.731555581, 0)
+SideLine2.Size = UDim2.new(0, 22, 0, 1)
+SideLine2.ZIndex = 3
+
+NoCameraShakeBTN.Name = "NoCameraShakeBTN"
+NoCameraShakeBTN.Parent = WestRetroFrame2
+NoCameraShakeBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+NoCameraShakeBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+NoCameraShakeBTN.BorderSizePixel = 2
+NoCameraShakeBTN.Position = UDim2.new(0.476543218, 0, 0.894444406, 0)
+NoCameraShakeBTN.Size = UDim2.new(0, 9, 0, 8)
+NoCameraShakeBTN.ZIndex = 3
+NoCameraShakeBTN.Font = Enum.Font.SourceSans
+NoCameraShakeBTN.Text = ""
+NoCameraShakeBTN.TextColor3 = Color3.new(0, 0, 0)
+NoCameraShakeBTN.TextSize = 14
+
+TeleportsText.Name = "TeleportsText"
+TeleportsText.Parent = WestRetroFrame2
+TeleportsText.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+TeleportsText.BackgroundTransparency = 1
+TeleportsText.BorderSizePixel = 0
+TeleportsText.Position = UDim2.new(0.170370355, 0, 0.247872189, 0)
+TeleportsText.Size = UDim2.new(0, 46, 0, 5)
+TeleportsText.ZIndex = 3
+TeleportsText.Font = Enum.Font.Code
+TeleportsText.Text = "Teleports"
+TeleportsText.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+TeleportsText.TextSize = 14
+TeleportsText.TextStrokeTransparency = 0
+
+AimbotTitle.Name = "AimbotTitle"
+AimbotTitle.Parent = WestRetroFrame2
+AimbotTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AimbotTitle.BackgroundTransparency = 1
+AimbotTitle.BorderSizePixel = 0
+AimbotTitle.Position = UDim2.new(0.0479629599, 0, 0.790777802, 0)
+AimbotTitle.Selectable = true
+AimbotTitle.Size = UDim2.new(0, 46, 0, 5)
+AimbotTitle.ZIndex = 3
+AimbotTitle.Font = Enum.Font.Code
+AimbotTitle.Text = "Aimbot"
+AimbotTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+AimbotTitle.TextSize = 14
+AimbotTitle.TextStrokeTransparency = 0
+
+SideLine4.Name = "SideLine4"
+SideLine4.Parent = WestRetroFrame2
+SideLine4.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine4.BackgroundTransparency = 0.0099999997764826
+SideLine4.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine4.BorderSizePixel = 0
+SideLine4.Position = UDim2.new(0.377777785, 0, 0.520444512, 0)
+SideLine4.Size = UDim2.new(0, 70, 0, 1)
+SideLine4.ZIndex = 3
+
+PlayerEspTitle.Name = "PlayerEspTitle"
+PlayerEspTitle.Parent = WestRetroFrame2
+PlayerEspTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+PlayerEspTitle.BackgroundTransparency = 1
+PlayerEspTitle.BorderSizePixel = 0
+PlayerEspTitle.Position = UDim2.new(0.0839506164, 0, 0.15898329, 0)
+PlayerEspTitle.Size = UDim2.new(0, 46, 0, 5)
+PlayerEspTitle.ZIndex = 3
+PlayerEspTitle.Font = Enum.Font.Code
+PlayerEspTitle.Text = "Player ESP"
+PlayerEspTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+PlayerEspTitle.TextSize = 14
+PlayerEspTitle.TextStrokeTransparency = 0
+
+SideLine3.Name = "SideLine3"
+SideLine3.Parent = WestRetroFrame2
+SideLine3.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine3.BackgroundTransparency = 0.0099999997764826
+SideLine3.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine3.BorderSizePixel = 0
+SideLine3.Position = UDim2.new(0.377777785, 0, 0.729703724, 0)
+SideLine3.Size = UDim2.new(0, 69, 0, 1)
+SideLine3.ZIndex = 3
+
+PlayerEspBTN.Name = "PlayerEspBTN"
+PlayerEspBTN.Parent = WestRetroFrame2
+PlayerEspBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+PlayerEspBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+PlayerEspBTN.BorderSizePixel = 2
+PlayerEspBTN.Position = UDim2.new(0.476543218, 0, 0.157407403, 0)
+PlayerEspBTN.Size = UDim2.new(0, 9, 0, 8)
+PlayerEspBTN.ZIndex = 3
+PlayerEspBTN.Font = Enum.Font.SourceSans
+PlayerEspBTN.Text = ""
+PlayerEspBTN.TextColor3 = Color3.new(0, 0, 0)
+PlayerEspBTN.TextSize = 14
+
+InfiniteAmmoBTN.Name = "InfiniteAmmoBTN"
+InfiniteAmmoBTN.Parent = WestRetroFrame2
+InfiniteAmmoBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+InfiniteAmmoBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+InfiniteAmmoBTN.BorderSizePixel = 2
+InfiniteAmmoBTN.Position = UDim2.new(0.476543218, 0, 0.861111045, 0)
+InfiniteAmmoBTN.Size = UDim2.new(0, 9, 0, 8)
+InfiniteAmmoBTN.ZIndex = 3
+InfiniteAmmoBTN.Font = Enum.Font.SourceSans
+InfiniteAmmoBTN.Text = ""
+InfiniteAmmoBTN.TextColor3 = Color3.new(0, 0, 0)
+InfiniteAmmoBTN.TextSize = 14
+
+NoclipBTN.Name = "NoclipBTN"
+NoclipBTN.Parent = WestRetroFrame2
+NoclipBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+NoclipBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+NoclipBTN.BorderSizePixel = 2
+NoclipBTN.Position = UDim2.new(0.476543218, 0, 0.561111093, 0)
+NoclipBTN.Size = UDim2.new(0, 9, 0, 8)
+NoclipBTN.ZIndex = 3
+NoclipBTN.Font = Enum.Font.SourceSans
+NoclipBTN.Text = ""
+NoclipBTN.TextColor3 = Color3.new(0, 0, 0)
+NoclipBTN.TextSize = 14
+
+StraightBottomLine.Name = "StraightBottomLine"
+StraightBottomLine.Parent = WestRetroFrame2
+StraightBottomLine.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine.BackgroundTransparency = 0.0099999997764826
+StraightBottomLine.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine.BorderSizePixel = 0
+StraightBottomLine.Position = UDim2.new(0.0320987664, 0, 0.709259212, 0)
+StraightBottomLine.Size = UDim2.new(0, 209, 0, 1)
+StraightBottomLine.ZIndex = 3
+
+SideLine6.Name = "SideLine6"
+SideLine6.Parent = WestRetroFrame2
+SideLine6.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine6.BackgroundTransparency = 0.0099999997764826
+SideLine6.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine6.BorderSizePixel = 0
+SideLine6.Position = UDim2.new(0.0296296291, 0, 0.126000002, 0)
+SideLine6.Size = UDim2.new(0, 18, 0, 1)
+SideLine6.ZIndex = 3
+
+StraightBottomLine_2.Name = "StraightBottomLine"
+StraightBottomLine_2.Parent = WestRetroFrame2
+StraightBottomLine_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_2.BackgroundTransparency = 0.0099999997764826
+StraightBottomLine_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_2.BorderSizePixel = 0
+StraightBottomLine_2.Position = UDim2.new(0.0345679, 0, 0.92592591, 0)
+StraightBottomLine_2.Size = UDim2.new(0, 209, 0, 1)
+StraightBottomLine_2.ZIndex = 3
+
+AimbotBTN.Name = "AimbotBTN"
+AimbotBTN.Parent = WestRetroFrame2
+AimbotBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+AimbotBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+AimbotBTN.BorderSizePixel = 2
+AimbotBTN.Position = UDim2.new(0.476543218, 0, 0.790740669, 0)
+AimbotBTN.Size = UDim2.new(0, 9, 0, 8)
+AimbotBTN.ZIndex = 3
+AimbotBTN.Font = Enum.Font.SourceSans
+AimbotBTN.Text = ""
+AimbotBTN.TextColor3 = Color3.new(0, 0, 0)
+AimbotBTN.TextSize = 14
+
+SideLine.Name = "SideLine"
+SideLine.Parent = WestRetroFrame2
+SideLine.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine.BackgroundTransparency = 0.0099999997764826
+SideLine.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine.BorderSizePixel = 0
+SideLine.Position = UDim2.new(0.499135703, 0, 0.126000002, 0)
+SideLine.Size = UDim2.new(0, 19, 0, 1)
+SideLine.ZIndex = 3
+
+UpWardsLine4.Name = "UpWardsLine4"
+UpWardsLine4.Parent = WestRetroFrame2
+UpWardsLine4.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine4.BackgroundTransparency = 0.0099999997764826
+UpWardsLine4.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine4.BorderSizePixel = 0
+UpWardsLine4.Position = UDim2.new(0.0345679373, 0, 0.733407378, 0)
+UpWardsLine4.Size = UDim2.new(0, 1, 0, 104)
+UpWardsLine4.ZIndex = 3
+
+UpWardsLine4_2.Name = "UpWardsLine4"
+UpWardsLine4_2.Parent = WestRetroFrame2
+UpWardsLine4_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine4_2.BackgroundTransparency = 0.0099999997764826
+UpWardsLine4_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine4_2.BorderSizePixel = 0
+UpWardsLine4_2.Position = UDim2.new(0.0320987999, 0, 0.516740739, 0)
+UpWardsLine4_2.Size = UDim2.new(0, 1, 0, 104)
+UpWardsLine4_2.ZIndex = 3
+
+UpWardsLine3.Name = "UpWardsLine3"
+UpWardsLine3.Parent = WestRetroFrame2
+UpWardsLine3.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3.BackgroundTransparency = 0.0099999997764826
+UpWardsLine3.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3.BorderSizePixel = 0
+UpWardsLine3.Position = UDim2.new(0.548148155, 0, 0.731555581, 0)
+UpWardsLine3.Size = UDim2.new(0, 1, 0, 105)
+UpWardsLine3.ZIndex = 3
+
+UpWardsLine3_2.Name = "UpWardsLine3"
+UpWardsLine3_2.Parent = WestRetroFrame2
+UpWardsLine3_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_2.BackgroundTransparency = 0.0099999997764826
+UpWardsLine3_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_2.BorderSizePixel = 0
+UpWardsLine3_2.Position = UDim2.new(0.548148215, 0, 0.520444453, 0)
+UpWardsLine3_2.Size = UDim2.new(0, 1, 0, 102)
+UpWardsLine3_2.ZIndex = 3
+
+HorseEspBTN.Name = "HorseEspBTN"
+HorseEspBTN.Parent = WestRetroFrame2
+HorseEspBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+HorseEspBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+HorseEspBTN.BorderSizePixel = 2
+HorseEspBTN.Position = UDim2.new(0.476543218, 0, 0.194444448, 0)
+HorseEspBTN.Size = UDim2.new(0, 9, 0, 8)
+HorseEspBTN.ZIndex = 3
+HorseEspBTN.Font = Enum.Font.SourceSans
+HorseEspBTN.Text = ""
+HorseEspBTN.TextColor3 = Color3.new(0, 0, 0)
+HorseEspBTN.TextSize = 14
+
+HorseEspTitle.Name = "HorseEspTitle"
+HorseEspTitle.Parent = WestRetroFrame2
+HorseEspTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+HorseEspTitle.BackgroundTransparency = 1
+HorseEspTitle.BorderSizePixel = 0
+HorseEspTitle.Position = UDim2.new(0.0839506164, 0, 0.196020335, 0)
+HorseEspTitle.Size = UDim2.new(0, 46, 0, 5)
+HorseEspTitle.ZIndex = 3
+HorseEspTitle.Font = Enum.Font.Code
+HorseEspTitle.Text = "Horse  ESP"
+HorseEspTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+HorseEspTitle.TextSize = 14
+HorseEspTitle.TextStrokeTransparency = 0
+
+UpWardsLine_2.Name = "UpWardsLine"
+UpWardsLine_2.Parent = WestRetroFrame2
+UpWardsLine_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine_2.BackgroundTransparency = 0.0099999997764826
+UpWardsLine_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine_2.BorderSizePixel = 0
+UpWardsLine_2.Position = UDim2.new(0.545679033, 0, 0.126000017, 0)
+UpWardsLine_2.Size = UDim2.new(0, 1, 0, 54)
+UpWardsLine_2.ZIndex = 3
+
+UpLine3.Name = "UpLine3"
+UpLine3.Parent = WestRetroFrame2
+UpLine3.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpLine3.BackgroundTransparency = 0.0099999997764826
+UpLine3.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpLine3.BorderSizePixel = 0
+UpLine3.Position = UDim2.new(0.543209851, 0, 0.0481481478, 0)
+UpLine3.Size = UDim2.new(0, 1, 0, 23)
+UpLine3.ZIndex = 3
+
+UpLine2.Name = "UpLine2"
+UpLine2.Parent = WestRetroFrame2
+UpLine2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpLine2.BackgroundTransparency = 0.0099999997764826
+UpLine2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpLine2.BorderSizePixel = 0
+UpLine2.Position = UDim2.new(0.261728406, 0, 0.0481481478, 0)
+UpLine2.Size = UDim2.new(0, 1, 0, 23)
+UpLine2.ZIndex = 3
+
+StraightLine.Name = "StraightLine"
+StraightLine.Parent = WestRetroFrame2
+StraightLine.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightLine.BackgroundTransparency = 0.0099999997764826
+StraightLine.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightLine.BorderSizePixel = 0
+StraightLine.Position = UDim2.new(0.261728406, 0, 0.0907407701, 0)
+StraightLine.Size = UDim2.new(0, 286, 0, 1)
+StraightLine.ZIndex = 3
+
+StraightBottomLine_3.Name = "StraightBottomLine"
+StraightBottomLine_3.Parent = WestRetroFrame2
+StraightBottomLine_3.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_3.BackgroundTransparency = 0.0099999997764826
+StraightBottomLine_3.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_3.BorderSizePixel = 0
+StraightBottomLine_3.Position = UDim2.new(0.0320987664, 0, 0.225925937, 0)
+StraightBottomLine_3.Size = UDim2.new(0, 209, 0, 1)
+StraightBottomLine_3.ZIndex = 3
+
+SideLine4_2.Name = "SideLine4"
+SideLine4_2.Parent = WestRetroFrame2
+SideLine4_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine4_2.BackgroundTransparency = 0.0099999997764826
+SideLine4_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine4_2.BorderSizePixel = 0
+SideLine4_2.Position = UDim2.new(0.320987642, 0, 0.253777832, 0)
+SideLine4_2.Size = UDim2.new(0, 93, 0, 1)
+SideLine4_2.ZIndex = 3
+
+UpWardsLine3_3.Name = "UpWardsLine3"
+UpWardsLine3_3.Parent = WestRetroFrame2
+UpWardsLine3_3.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_3.BackgroundTransparency = 0.0099999997764826
+UpWardsLine3_3.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_3.BorderSizePixel = 0
+UpWardsLine3_3.Position = UDim2.new(0.550617278, 0, 0.255629629, 0)
+UpWardsLine3_3.Size = UDim2.new(0, 1, 0, 130)
+UpWardsLine3_3.ZIndex = 3
+
+StraightBottomLine_4.Name = "StraightBottomLine"
+StraightBottomLine_4.Parent = WestRetroFrame2
+StraightBottomLine_4.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_4.BackgroundTransparency = 0.0099999997764826
+StraightBottomLine_4.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StraightBottomLine_4.BorderSizePixel = 0
+StraightBottomLine_4.Position = UDim2.new(0.0370370373, 0, 0.496296316, 0)
+StraightBottomLine_4.Size = UDim2.new(0, 209, 0, 1)
+StraightBottomLine_4.ZIndex = 3
+
+UpWardsLine3_4.Name = "UpWardsLine3"
+UpWardsLine3_4.Parent = WestRetroFrame2
+UpWardsLine3_4.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_4.BackgroundTransparency = 0.0099999997764826
+UpWardsLine3_4.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+UpWardsLine3_4.BorderSizePixel = 0
+UpWardsLine3_4.Position = UDim2.new(0.037037015, 0, 0.255629629, 0)
+UpWardsLine3_4.Size = UDim2.new(0, 1, 0, 130)
+UpWardsLine3_4.ZIndex = 3
+
+SideLine6_2.Name = "SideLine6"
+SideLine6_2.Parent = WestRetroFrame2
+SideLine6_2.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine6_2.BackgroundTransparency = 0.0099999997764826
+SideLine6_2.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+SideLine6_2.BorderSizePixel = 0
+SideLine6_2.Position = UDim2.new(0.0395061746, 0, 0.255629659, 0)
+SideLine6_2.Size = UDim2.new(0, 37, 0, 1)
+SideLine6_2.ZIndex = 3
+
+CharacterCheatsText.Name = "CharacterCheatsText"
+CharacterCheatsText.Parent = WestRetroFrame2
+CharacterCheatsText.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+CharacterCheatsText.BackgroundTransparency = 1
+CharacterCheatsText.BorderSizePixel = 0
+CharacterCheatsText.Position = UDim2.new(0.170370355, 0, 0.516390681, 0)
+CharacterCheatsText.Size = UDim2.new(0, 46, 0, 5)
+CharacterCheatsText.ZIndex = 3
+CharacterCheatsText.Font = Enum.Font.Code
+CharacterCheatsText.Text = "Character Cheats"
+CharacterCheatsText.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+CharacterCheatsText.TextSize = 14
+CharacterCheatsText.TextStrokeTransparency = 0
+
+TumbleweedTPTitle.Name = "TumbleweedTPTitle"
+TumbleweedTPTitle.Parent = WestRetroFrame2
+TumbleweedTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+TumbleweedTPTitle.BackgroundTransparency = 1
+TumbleweedTPTitle.BorderSizePixel = 0
+TumbleweedTPTitle.Position = UDim2.new(0.0839506164, 0, 0.279353678, 0)
+TumbleweedTPTitle.Size = UDim2.new(0, 46, 0, 5)
+TumbleweedTPTitle.ZIndex = 3
+TumbleweedTPTitle.Font = Enum.Font.Code
+TumbleweedTPTitle.Text = "Tumbleweed"
+TumbleweedTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+TumbleweedTPTitle.TextSize = 14
+TumbleweedTPTitle.TextStrokeTransparency = 0
+
+StoneCreekTPTitle.Name = "StoneCreekTPTitle"
+StoneCreekTPTitle.Parent = WestRetroFrame2
+StoneCreekTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+StoneCreekTPTitle.BackgroundTransparency = 1
+StoneCreekTPTitle.BorderSizePixel = 0
+StoneCreekTPTitle.Position = UDim2.new(0.0839506164, 0, 0.314538836, 0)
+StoneCreekTPTitle.Size = UDim2.new(0, 46, 0, 5)
+StoneCreekTPTitle.ZIndex = 3
+StoneCreekTPTitle.Font = Enum.Font.Code
+StoneCreekTPTitle.Text = " Stone Creek"
+StoneCreekTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+StoneCreekTPTitle.TextSize = 14
+StoneCreekTPTitle.TextStrokeTransparency = 0
+
+QuarryTPTitle.Name = "QuarryTPTitle"
+QuarryTPTitle.Parent = WestRetroFrame2
+QuarryTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+QuarryTPTitle.BackgroundTransparency = 1
+QuarryTPTitle.BorderSizePixel = 0
+QuarryTPTitle.Position = UDim2.new(0.0376543254, 0, 0.347872198, 0)
+QuarryTPTitle.Size = UDim2.new(0, 56, 0, 5)
+QuarryTPTitle.ZIndex = 3
+QuarryTPTitle.Font = Enum.Font.Code
+QuarryTPTitle.Text = "Quarry"
+QuarryTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+QuarryTPTitle.TextSize = 14
+QuarryTPTitle.TextStrokeTransparency = 0
+
+GrayRidgeTPTitle.Name = "GrayRidgeTPTitle"
+GrayRidgeTPTitle.Parent = WestRetroFrame2
+GrayRidgeTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+GrayRidgeTPTitle.BackgroundTransparency = 1
+GrayRidgeTPTitle.BorderSizePixel = 0
+GrayRidgeTPTitle.Position = UDim2.new(0.057407409, 0, 0.379353672, 0)
+GrayRidgeTPTitle.Size = UDim2.new(0, 56, 0, 5)
+GrayRidgeTPTitle.ZIndex = 3
+GrayRidgeTPTitle.Font = Enum.Font.Code
+GrayRidgeTPTitle.Text = " Grayridge"
+GrayRidgeTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+GrayRidgeTPTitle.TextSize = 14
+GrayRidgeTPTitle.TextStrokeTransparency = 0
+
+FortArthurTPTitle.Name = "FortArthurTPTitle"
+FortArthurTPTitle.Parent = WestRetroFrame2
+FortArthurTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+FortArthurTPTitle.BackgroundTransparency = 1
+FortArthurTPTitle.BorderSizePixel = 0
+FortArthurTPTitle.Position = UDim2.new(0.0820987672, 0, 0.41453886, 0)
+FortArthurTPTitle.Size = UDim2.new(0, 56, 0, 5)
+FortArthurTPTitle.ZIndex = 3
+FortArthurTPTitle.Font = Enum.Font.Code
+FortArthurTPTitle.Text = "Fort Arthur"
+FortArthurTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+FortArthurTPTitle.TextSize = 14
+FortArthurTPTitle.TextStrokeTransparency = 0
+
+FortCassidyTPTitle.Name = "FortCassidyTPTitle"
+FortCassidyTPTitle.Parent = WestRetroFrame2
+FortCassidyTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+FortCassidyTPTitle.BackgroundTransparency = 1
+FortCassidyTPTitle.BorderSizePixel = 0
+FortCassidyTPTitle.Position = UDim2.new(0.0944444463, 0, 0.444168508, 0)
+FortCassidyTPTitle.Size = UDim2.new(0, 56, 0, 5)
+FortCassidyTPTitle.ZIndex = 3
+FortCassidyTPTitle.Font = Enum.Font.Code
+FortCassidyTPTitle.Text = "Fort Cassidy"
+FortCassidyTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+FortCassidyTPTitle.TextSize = 14
+FortCassidyTPTitle.TextStrokeTransparency = 0
+
+RedRocksCampTPTitle.Name = "RedRocksCampTPTitle"
+RedRocksCampTPTitle.Parent = WestRetroFrame2
+RedRocksCampTPTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+RedRocksCampTPTitle.BackgroundTransparency = 1
+RedRocksCampTPTitle.BorderSizePixel = 0
+RedRocksCampTPTitle.Position = UDim2.new(0.1117284, 0, 0.475649983, 0)
+RedRocksCampTPTitle.Size = UDim2.new(0, 56, 0, 5)
+RedRocksCampTPTitle.ZIndex = 3
+RedRocksCampTPTitle.Font = Enum.Font.Code
+RedRocksCampTPTitle.Text = "Red Rocks Camp"
+RedRocksCampTPTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+RedRocksCampTPTitle.TextSize = 14
+RedRocksCampTPTitle.TextStrokeTransparency = 0
+
+TumbleweedTPBTN.Name = "TumbleweedTPBTN"
+TumbleweedTPBTN.Parent = WestRetroFrame2
+TumbleweedTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+TumbleweedTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+TumbleweedTPBTN.BorderSizePixel = 2
+TumbleweedTPBTN.Position = UDim2.new(0.476543218, 0, 0.275925934, 0)
+TumbleweedTPBTN.Size = UDim2.new(0, 9, 0, 8)
+TumbleweedTPBTN.ZIndex = 3
+TumbleweedTPBTN.Font = Enum.Font.SourceSans
+TumbleweedTPBTN.Text = ""
+TumbleweedTPBTN.TextColor3 = Color3.new(0, 0, 0)
+TumbleweedTPBTN.TextSize = 14
+
+RedRocksCampTPBTN.Name = "RedRocksCampTPBTN"
+RedRocksCampTPBTN.Parent = WestRetroFrame2
+RedRocksCampTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+RedRocksCampTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+RedRocksCampTPBTN.BorderSizePixel = 2
+RedRocksCampTPBTN.Position = UDim2.new(0.476543218, 0, 0.475925893, 0)
+RedRocksCampTPBTN.Size = UDim2.new(0, 9, 0, 8)
+RedRocksCampTPBTN.ZIndex = 3
+RedRocksCampTPBTN.Font = Enum.Font.SourceSans
+RedRocksCampTPBTN.Text = ""
+RedRocksCampTPBTN.TextColor3 = Color3.new(0, 0, 0)
+RedRocksCampTPBTN.TextSize = 14
+
+StoneCreekTPBTN.Name = "StoneCreekTPBTN"
+StoneCreekTPBTN.Parent = WestRetroFrame2
+StoneCreekTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+StoneCreekTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+StoneCreekTPBTN.BorderSizePixel = 2
+StoneCreekTPBTN.Position = UDim2.new(0.476543218, 0, 0.307407409, 0)
+StoneCreekTPBTN.Size = UDim2.new(0, 9, 0, 8)
+StoneCreekTPBTN.ZIndex = 3
+StoneCreekTPBTN.Font = Enum.Font.SourceSans
+StoneCreekTPBTN.Text = ""
+StoneCreekTPBTN.TextColor3 = Color3.new(0, 0, 0)
+StoneCreekTPBTN.TextSize = 14
+
+QuarryTPBTN.Name = "QuarryTPBTN"
+QuarryTPBTN.Parent = WestRetroFrame2
+QuarryTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+QuarryTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+QuarryTPBTN.BorderSizePixel = 2
+QuarryTPBTN.Position = UDim2.new(0.476543218, 0, 0.34074074, 0)
+QuarryTPBTN.Size = UDim2.new(0, 9, 0, 8)
+QuarryTPBTN.ZIndex = 3
+QuarryTPBTN.Font = Enum.Font.SourceSans
+QuarryTPBTN.Text = ""
+QuarryTPBTN.TextColor3 = Color3.new(0, 0, 0)
+QuarryTPBTN.TextSize = 14
+
+GrayridgeTPBTN.Name = "GrayridgeTPBTN"
+GrayridgeTPBTN.Parent = WestRetroFrame2
+GrayridgeTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+GrayridgeTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GrayridgeTPBTN.BorderSizePixel = 2
+GrayridgeTPBTN.Position = UDim2.new(0.476543218, 0, 0.374074072, 0)
+GrayridgeTPBTN.Size = UDim2.new(0, 9, 0, 8)
+GrayridgeTPBTN.ZIndex = 3
+GrayridgeTPBTN.Font = Enum.Font.SourceSans
+GrayridgeTPBTN.Text = ""
+GrayridgeTPBTN.TextColor3 = Color3.new(0, 0, 0)
+GrayridgeTPBTN.TextSize = 14
+
+FortArthurTPBTN.Name = "FortArthurTPBTN"
+FortArthurTPBTN.Parent = WestRetroFrame2
+FortArthurTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+FortArthurTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+FortArthurTPBTN.BorderSizePixel = 2
+FortArthurTPBTN.Position = UDim2.new(0.476543218, 0, 0.40925923, 0)
+FortArthurTPBTN.Size = UDim2.new(0, 9, 0, 8)
+FortArthurTPBTN.ZIndex = 3
+FortArthurTPBTN.Font = Enum.Font.SourceSans
+FortArthurTPBTN.Text = ""
+FortArthurTPBTN.TextColor3 = Color3.new(0, 0, 0)
+FortArthurTPBTN.TextSize = 14
+
+FortCassidyTPBTN.Name = "FortCassidyTPBTN"
+FortCassidyTPBTN.Parent = WestRetroFrame2
+FortCassidyTPBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+FortCassidyTPBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+FortCassidyTPBTN.BorderSizePixel = 2
+FortCassidyTPBTN.Position = UDim2.new(0.476543218, 0, 0.444444418, 0)
+FortCassidyTPBTN.Size = UDim2.new(0, 9, 0, 8)
+FortCassidyTPBTN.ZIndex = 3
+FortCassidyTPBTN.Font = Enum.Font.SourceSans
+FortCassidyTPBTN.Text = ""
+FortCassidyTPBTN.TextColor3 = Color3.new(0, 0, 0)
+FortCassidyTPBTN.TextSize = 14
+
+OtherCheatsTabBTN.Name = "OtherCheatsTabBTN"
+OtherCheatsTabBTN.Parent = WestRetroFrame2
+OtherCheatsTabBTN.BackgroundColor3 = Color3.new(0.192157, 0.192157, 0.192157)
+OtherCheatsTabBTN.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+OtherCheatsTabBTN.Position = UDim2.new(0.261728406, 0, 0.0481481478, 0)
+OtherCheatsTabBTN.Size = UDim2.new(0, 116, 0, 23)
+OtherCheatsTabBTN.ZIndex = 3
+OtherCheatsTabBTN.AutoButtonColor = false
+OtherCheatsTabBTN.Font = Enum.Font.Code
+OtherCheatsTabBTN.Text = "Other Cheats"
+OtherCheatsTabBTN.TextColor3 = Color3.new(1, 1, 1)
+OtherCheatsTabBTN.TextSize = 14
+
+MaxAccuracyTitle.Name = "MaxAccuracyTitle"
+MaxAccuracyTitle.Parent = WestRetroFrame2
+MaxAccuracyTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+MaxAccuracyTitle.BackgroundTransparency = 1
+MaxAccuracyTitle.BorderSizePixel = 0
+MaxAccuracyTitle.Position = UDim2.new(0.109691359, 0, 0.757444441, 0)
+MaxAccuracyTitle.Size = UDim2.new(0, 46, 0, 5)
+MaxAccuracyTitle.ZIndex = 3
+MaxAccuracyTitle.Font = Enum.Font.Code
+MaxAccuracyTitle.Text = "Max Accuracy "
+MaxAccuracyTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+MaxAccuracyTitle.TextSize = 14
+MaxAccuracyTitle.TextStrokeTransparency = 0
+
+MaxAccuracyBTN.Name = "MaxAccuracyBTN"
+MaxAccuracyBTN.Parent = WestRetroFrame2
+MaxAccuracyBTN.BackgroundColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+MaxAccuracyBTN.BorderColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+MaxAccuracyBTN.BorderSizePixel = 2
+MaxAccuracyBTN.Position = UDim2.new(0.476543218, 0, 0.757407367, 0)
+MaxAccuracyBTN.Size = UDim2.new(0, 9, 0, 8)
+MaxAccuracyBTN.ZIndex = 3
+MaxAccuracyBTN.Font = Enum.Font.SourceSans
+MaxAccuracyBTN.Text = ""
+MaxAccuracyBTN.TextColor3 = Color3.new(0, 0, 0)
+MaxAccuracyBTN.TextSize = 14
+
+NoCameraShakeTitle.Name = "NoCameraShakeTitle"
+NoCameraShakeTitle.Parent = WestRetroFrame2
+NoCameraShakeTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+NoCameraShakeTitle.BackgroundTransparency = 1
+NoCameraShakeTitle.BorderSizePixel = 0
+NoCameraShakeTitle.Position = UDim2.new(0.122037001, 0, 0.896333396, 0)
+NoCameraShakeTitle.Size = UDim2.new(0, 46, 0, 5)
+NoCameraShakeTitle.ZIndex = 3
+NoCameraShakeTitle.Font = Enum.Font.Code
+NoCameraShakeTitle.Text = "No Camera Shake"
+NoCameraShakeTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+NoCameraShakeTitle.TextSize = 14
+NoCameraShakeTitle.TextStrokeTransparency = 0
+
+BackpackNeverDisabledTitle.Name = "BackpackNeverDisabledTitle"
+BackpackNeverDisabledTitle.Parent = WestRetroFrame2
+BackpackNeverDisabledTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+BackpackNeverDisabledTitle.BackgroundTransparency = 1
+BackpackNeverDisabledTitle.BorderSizePixel = 0
+BackpackNeverDisabledTitle.Position = UDim2.new(0.122037016, 0, 0.649444461, 0)
+BackpackNeverDisabledTitle.Size = UDim2.new(0, 46, 0, 5)
+BackpackNeverDisabledTitle.ZIndex = 3
+BackpackNeverDisabledTitle.Font = Enum.Font.Code
+BackpackNeverDisabledTitle.Text = "Backpack Never"
+BackpackNeverDisabledTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+BackpackNeverDisabledTitle.TextSize = 14
+BackpackNeverDisabledTitle.TextStrokeTransparency = 0
+
+DisabledTitle.Name = "DisabledTitle"
+DisabledTitle.Parent = WestRetroFrame2
+DisabledTitle.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+DisabledTitle.BackgroundTransparency = 1
+DisabledTitle.BorderSizePixel = 0
+DisabledTitle.Position = UDim2.new(0.122037016, 0, 0.677222252, 0)
+DisabledTitle.Size = UDim2.new(0, 46, 0, 5)
+DisabledTitle.ZIndex = 3
+DisabledTitle.Font = Enum.Font.Code
+DisabledTitle.Text = "Disabled"
+DisabledTitle.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+DisabledTitle.TextSize = 14
+DisabledTitle.TextStrokeTransparency = 0
+
+WalkSpeedTextBox.Name = "WalkSpeedTextBox"
+WalkSpeedTextBox.Parent = WestRetroFrame2
+WalkSpeedTextBox.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+WalkSpeedTextBox.BorderColor3 = Color3.new(0.309804, 0.309804, 0.309804)
+WalkSpeedTextBox.Position = UDim2.new(0.470896125, 0, 0.600041032, 0)
+WalkSpeedTextBox.Size = UDim2.new(0, 13, 0, 13)
+WalkSpeedTextBox.ZIndex = 3
+WalkSpeedTextBox.Font = Enum.Font.Code
+WalkSpeedTextBox.Text = ""
+WalkSpeedTextBox.TextColor3 = Color3.new(1, 1, 1)
+WalkSpeedTextBox.TextSize = 14
+-- Scripts:
+function SCRIPT_JYIN84_FAKESCRIPT() -- WestRetro.Toggle 
+	local script = Instance.new('LocalScript')
+	script.Parent = WestRetro
+	local toggle = false 
+	
+	
+	function onKeyPress(actionName, userInputState, inputObject)
+	    if userInputState == Enum.UserInputState.Begin then
+	        if toggle == false then
+	             toggle = true
+	              script.Parent.WestRetroFrame2.Visible = false
+	        else
+	            toggle = false
+	            script.Parent.WestRetroFrame2.Visible =  true
+	        end
+	    end
+	end
+	
+	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JYIN84_FAKESCRIPT))
+function SCRIPT_YQAX88_FAKESCRIPT() -- WestRetro.Drag 
+	local script = Instance.new('LocalScript')
+	script.Parent = WestRetro
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    dragSpeed = 0.100
+	    dragInput = nil
+	    dragStart = nil
+	    dragPos = nil
+	    function updateInput(input)
+	        Delta = input.Position - dragStart
+	        Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent.WestRetroFrame2)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YQAX88_FAKESCRIPT))
+function SCRIPT_LCRW74_FAKESCRIPT() -- RapidFireBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = RapidFireBTN
+	RapidFireBTN.MouseButton1Down:connect(function()
+		for i, child in ipairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if child:FindFirstChild("GunType") then
+				local module = require(game.ReplicatedStorage.GunScripts.GunStats)[child.Name]
+				if module.prepTime then 
+					module.prepTime = 0
+				end
+				if module.equipTime then
+					module.equipTime = 0 
+				end
+				if module.FanFire then
+					module.FanFire = false
+				end
+			end
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_LCRW74_FAKESCRIPT))
+function SCRIPT_KGBI84_FAKESCRIPT() -- Title.RainbowText 
+	local script = Instance.new('LocalScript')
+	script.Parent = Title
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KGBI84_FAKESCRIPT))
+function SCRIPT_TDGC89_FAKESCRIPT() -- BackpackNeverDisabledBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = BackpackNeverDisabledBTN
+	BackpackNeverDisabledBTN.MouseButton1Down:connect(function()
+		while true do 
+			for x = 1,1 do
+				game:GetService("Players").LocalPlayer.States.BackpackDisabled.Value = false
+			end
+			wait (0.5)
+		end 
+	end)
+		
+
+end
+coroutine.resume(coroutine.create(SCRIPT_TDGC89_FAKESCRIPT))
+function SCRIPT_TIWN76_FAKESCRIPT() -- NoCameraShakeBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = NoCameraShakeBTN
+	NoCameraShakeBTN.MouseButton1Down:connect(function()
+		for i, child in ipairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if child:FindFirstChild("GunType") then
+				local module = require(game.ReplicatedStorage.GunScripts.GunStats)[child.Name]
+				if module.camShakeResist then
+				module.camShakeResist = 0
+			end
+		end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_TIWN76_FAKESCRIPT))
+function SCRIPT_ORED77_FAKESCRIPT() -- PlayerEspBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = PlayerEspBTN
+	PlayerEspBTN.MouseButton1Down:connect(function()
+		ALLYCOLOR = {0,255,255} 
+		ENEMYCOLOR =  {255,0,0} 
+		TRANSPARENCY = 0.5		
+		HEALTHBAR_ACTIVATED = true 	
+		--
+		--
+		
+		--						
+		
+		function createHealth()
+			-- -----------------------------------------------------------------------------------
+			--[VARIABLES]
+			players = game:GetService("Players")
+			faces = {"Front","Back","Bottom","Left","Right","Top"} 
+			currentPlayer = nil 
+			lplayer = players.LocalPlayer
+			-- -----------------------------------------------------------------------------------
+			players.PlayerAdded:Connect(function(p)
+				currentPlayer = p
+				p.CharacterAdded:Connect(function(character) 
+					createESP(character)			
+				end)		
+			end)
+			-- -----------------------------------------------------------------------------------
+			function checkPart(obj)  if (obj:IsA("Part") or obj:IsA("MeshPart")) and obj.Name~="HumanoidRootPart" then return true end end 
+			-- -----------------------------------------------------------------------------------
+			function actualESP(obj) 
+				
+				for i=0,5 do
+					surface = Instance.new("SurfaceGui",obj) 
+					surface.Face = Enum.NormalId[faces[i+1]] 
+					surface.AlwaysOnTop = false
+					
+					frame = Instance.new("Frame",surface)
+					frame.Size = UDim2.new(1,0,1,0)
+					frame.BorderSizePixel = 0											
+					frame.BackgroundTransparency = 1
+					if currentPlayer.Team == players.LocalPlayer.Team then 
+						frame.BackgroundColor3 = Color3.new(ALLYCOLOR[1],ALLYCOLOR[2],ALLYCOLOR[3])									
+					else
+						frame.BackgroundColor3 = Color3.new(ENEMYCOLOR[1],ENEMYCOLOR[2],ENEMYCOLOR[3])	
+					end
+					
+				end
+			end
+			-- -----------------------------------------------------------------------------------
+			function createHealthbar(hrp) 
+				board =Instance.new("BillboardGui",hrp) 
+				board.Name = "total"
+				board.Size = UDim2.new(1,0,1,0)
+				board.StudsOffset = Vector3.new(3,1,0)
+				board.AlwaysOnTop = true
+				
+				bar = Instance.new("Frame",board) 
+				bar.BackgroundColor3 = Color3.new(255,0,0)
+				bar.BorderSizePixel = 0
+				bar.Size = UDim2.new(0.2,0,4,0)
+				bar.Name = "total2"
+				
+				health = Instance.new("Frame",bar) 
+				health.BackgroundColor3 = Color3.new(0,255,0)
+				health.BorderSizePixel = 0
+				health.Size = UDim2.new(1.653, 2.041, 0.975)
+				local v = game.Players:GetPlayers()
+				hrp.Parent.Humanoid.Changed:Connect(function(property)
+					hrp.total.total2.Frame.Size = UDim2.new(1,0,v.Character.Humanoid.Health/100,0)						
+				end)
+			end
+			-- -----------------------------------------------------------------------------------
+			function createESP(c) 
+				bugfix = c:WaitForChild("Head") 
+				for i,v in pairs(c:GetChildren()) do
+					if checkPart(v) then
+						actualESP(v)
+					end
+				end
+				if HEALTHBAR_ACTIVATED then 
+					createHealthbar(c:WaitForChild("HumanoidRootPart")) 
+				end
+			end
+			-- -----------------------------------------------------------------------------------
+			for i,people in pairs(players:GetChildren())do
+				if people ~= players.LocalPlayer then
+					currentPlayer = people
+					
+					createESP(people.Character)
+					people.CharacterAdded:Connect(function(character)
+						createESP(character)			
+					end)
+				end
+			end
+			-- -----------------------------------------------------------------------------------
+		end
+		
+		createHealth()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ORED77_FAKESCRIPT))
+function SCRIPT_XZWV66_FAKESCRIPT() -- InfiniteAmmoBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = InfiniteAmmoBTN
+	InfiniteAmmoBTN.MouseButton1Down:connect(function()
+		for i, child in ipairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if child:FindFirstChild("GunType") then
+				local module = require(game.ReplicatedStorage.GunScripts.GunStats)[child.Name]
+				if module.MaxShots then
+					module.MaxShots = math.huge
+				end
+			end
+		end
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_XZWV66_FAKESCRIPT))
+function SCRIPT_UHAJ72_FAKESCRIPT() -- NoclipBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = NoclipBTN
+	NoclipBTN.MouseButton1Down:connect(function()
+		game:getService("RunService"):BindToRenderStep("",0,function()
+			if not game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid") then return end
+			if game:getService("UserInputService"):IsKeyDown(Enum.KeyCode.V) then
+				game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid"):ChangeState(11)
+			end
+		end)
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_UHAJ72_FAKESCRIPT))
+function SCRIPT_BRMT74_FAKESCRIPT() -- AimbotBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = AimbotBTN
+	AimbotBTN.MouseButton1Down:connect(function()
+		local safe = setmetatable({}, {
+			__index = function(_, k)
+				return game:GetService(k)
+			end
+		})
+		
+		
+		local movethemouse = mousemoverel 
+		local leftclickme = nil 
+		local aimbotting = true 
+		--local autoshoot = false
+		--local teamcheck = false
+		_G.xaimoffset = 0 --_G.xaimoffset = -25
+		_G.maxdistfromcross = 179
+		
+		local cam = safe.Workspace.CurrentCamera 
+		local lp = safe.Players.LocalPlayer 
+		local lpc = safe.Players.LocalPlayer.Character 
+		
+		local wtos = function(v) 
+			return cam:WorldToScreenPoint(v)
+		end
+		
+		local distFromCenter = function(x, y)
+			local vps = cam.ViewportSize -- Get ViewPortSize.
+			local vpsx = vps.X
+			local vpsy = vps.Y
+			local screencenterx = vpsx/2
+			local screencentery = vpsy/2
+			local xdist = (x - screencenterx) 
+			local ydist = (y - screencentery) 
+			local Hypotenuse = math.sqrt(math.pow(xdist, 2) + math.pow(ydist, 2))
+			return Hypotenuse
+		end
+		
+		
+		local getclosestPlayer = function() -- Checks the closest player based on Hypotenuse.
+			local plrs, v = safe.Players:GetPlayers()
+			local maxdist = 75
+			local dist = math.huge
+			local plr = "none"
+			for i = 1, #plrs do
+				v = plrs[i]
+				if v ~= safe.Players.LocalPlayer then
+					if v.Character and v.Character:WaitForChild("Head",10) then
+						if v.TeamColor ~= safe.Players.LocalPlayer.TeamColor and teamcheck then
+							local hpos = wtos(v.Character.Head.Position)
+							local idist = distFromCenter(hpos.X, hpos.Y)
+							if idist < dist and idist < _G.maxdistfromcross then
+								dist = idist
+								plr = v
+							end
+						elseif not teamcheck then
+							local hpos = wtos(v.Character.Head.Position)
+							local idist = distFromCenter(hpos.X, hpos.Y)
+							if idist < dist and idist < _G.maxdistfromcross then
+								dist = idist
+								plr = v
+							end
+						end
+					end
+				end
+			end
+			return plr, dist
+		end
+		
+		local AimAt = function(x, y)
+			local vps = cam.ViewportSize
+			local vpsx = vps.X
+			local vpsy = vps.Y
+			local screencenterx = vpsx/2
+			local screencentery = vpsy/2
+			local aimspeed = 2
+			local aimatx
+			local aimaty
+			
+			if x ~= 0 then
+				if x > screencenterx then
+					aimatx = -(screencenterx - x)
+					aimatx = aimatx/aimspeed
+					if aimatx + screencenterx > screencenterx * 2 then
+						aimatx = 0
+					end
+				end
+				if x < screencenterx then
+					aimatx = x - screencenterx
+					aimatx = aimatx/aimspeed
+					if aimatx + screencenterx < 0 then
+						aimatx = 0
+					end
+				end
+			end
+			
+			if y ~= 0 then
+				if y > screencentery then
+					aimaty = -(screencentery - y)
+					aimaty = aimaty/aimspeed
+					if aimaty + screencentery > screencentery * 2 then
+						aimaty = 0
+					end
+				end
+				if y < screencentery then
+					aimaty = y - screencentery
+					aimaty = aimaty/aimspeed
+					if aimaty + screencentery < 0 then
+						aimaty = 0
+					end
+				end
+			end
+			return aimatx, aimaty
+		end
+		
+		local MouseTests = function()
+			local player = safe.Players.LocalPlayer
+			local mouse = player:GetMouse()
+			local screensizex = mouse.ViewSizeX
+			local screensizey = mouse.ViewSizeY
+			local midx = screensizex/2
+			local midy = screensizey/2
+			local mousex = mouse.X
+			local mousey = mouse.Y
+			local moveamountx = midx - mousex
+			local moveamounty = midy - mousey
+			
+			local camera = safe.Workspace.Camera
+			local newmousex = safe.Players.LocalPlayer:GetMouse().X
+			local newmousey = safe.Players.LocalPlayer:GetMouse().Y
+			local closestplayer = getclosestPlayer()
+			if player.Character.Humanoid.Health > 0 then
+				if closestplayer ~= "none" then
+					
+					local closesthead = closestplayer.Character:WaitForChild("Head",10)
+					if closesthead then
+						local p = camera:WorldToScreenPoint(closesthead.Position)
+						local xdistancetohead, ydistancetohead = AimAt(p.X + _G.xaimoffset, p.Y + 35) 
+						movethemouse(moveamountx + xdistancetohead, moveamounty + ydistancetohead)
+					end
+					
+				end
+				
+			end
+		end
+		
+		
+		
+		local plr = safe.Players.LocalPlayer
+		local mouse = plr:GetMouse()
+		
+		
+		MB2Held = false
+		
+		function onKeyPress(inputObject,gameProcessed)
+			if inputObject.UserInputType == Enum.UserInputType.MouseButton2 then
+				MB2Held = true
+				while MB2Held do
+					wait()
+					if aimbotting then
+						MouseTests()
+					end
+				end
+			end
+		end
+		
+		function onKeyRelease(inputObject,gameProcessed)
+			if inputObject.UserInputType == Enum.UserInputType.MouseButton2 then
+				MB2Held = false
+			end
+		end
+		
+		game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+		game:GetService("UserInputService").InputEnded:connect(onKeyRelease)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_BRMT74_FAKESCRIPT))
+function SCRIPT_IMCY84_FAKESCRIPT() -- TumbleweedTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = TumbleweedTPBTN
+	TumbleweedTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Tumbleweed",
+			[2] = false
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_IMCY84_FAKESCRIPT))
+function SCRIPT_EYIZ65_FAKESCRIPT() -- RedRocksCampTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = RedRocksCampTPBTN
+	RedRocksCampTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "RedRocks",
+			[2] = true
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_EYIZ65_FAKESCRIPT))
+function SCRIPT_IJJB70_FAKESCRIPT() -- StoneCreekTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = StoneCreekTPBTN
+	StoneCreekTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "StoneCreek",
+			[2] = false
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_IJJB70_FAKESCRIPT))
+function SCRIPT_APZP83_FAKESCRIPT() -- QuarryTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = QuarryTPBTN
+	QuarryTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Quarry",
+			[2] = false
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_APZP83_FAKESCRIPT))
+function SCRIPT_RPDQ75_FAKESCRIPT() -- GrayridgeTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = GrayridgeTPBTN
+	GrayridgeTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Grayridge",
+			[2] = false
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_RPDQ75_FAKESCRIPT))
+function SCRIPT_PLHN90_FAKESCRIPT() -- FortArthurTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = FortArthurTPBTN
+	FortArthurTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "FortArthur",
+			[2] = true
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_PLHN90_FAKESCRIPT))
+function SCRIPT_CSPM79_FAKESCRIPT() -- FortCassidyTPBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = FortCassidyTPBTN
+	FortCassidyTPBTN.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "FortCassidy",
+			[2] = true
+		}
+		
+		game:GetService("ReplicatedStorage").GeneralEvents.Spawn:FireServer(unpack(args))
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_CSPM79_FAKESCRIPT))
+function SCRIPT_NECL77_FAKESCRIPT() -- MaxAccuracyBTN.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = MaxAccuracyBTN
+	MaxAccuracyBTN.MouseButton1Down:connect(function()
+		for i, child in ipairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+		if child:FindFirstChild("GunType") then
+			local module = require(game.ReplicatedStorage.GunScripts.GunStats)[child.Name]
+			if module.ZoomAccuracy then 
+		module.ZoomAccuracy = 0
+			end
+		end
+	end
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_NECL77_FAKESCRIPT))
+function SCRIPT_IHRT76_FAKESCRIPT() -- WalkSpeedTextBox.WalkSpeedScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = WalkSpeedTextBox
+	local gmt = getrawmetatable(game) -- Gets all Metatables From game
+	setreadonly(gmt,false)
+	
+	local oldindex = gmt.__index
+	
+	gmt.__index = newcclosure(function(self,k)
+		if k == "WalkSpeed" then
+			return 15
+		end 
+		return oldindex(self,k)
+	end)
+	
+		local SetWalkSpeed = 16
+		game:GetService("RunService").Heartbeat:Connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = SetWalkSpeed
+		end)
+		WalkSpeedTextBox.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				SetWalkSpeed = tonumber(WalkSpeedTextBox.Text)
+			end
+		end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_IHRT76_FAKESCRIPT))
